@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+.list li{
+    padding: 4px 10px;
+}
+.list a {
+    text-decoration-line: none;
+    color: indianred;
+}
+.Navbar{
+    background-color: pink;
+}
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.listNetflix {
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.listNetflix a {
+    text-decoration-line: none;
+    background: pink;
+    color: brown;
+    padding: 4px 23px;
+    border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.listNetflix {
+    text-align: center;
+    padding: 20px;
+    line-height: 35px;
+    width: calc(100%/4);
 }

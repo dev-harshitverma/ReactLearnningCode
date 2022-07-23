@@ -1,24 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Cards from "./components/cards";
+import CurrentDateTime from './components/CurrentDateTime';
+import Marge from './components/Marge';
+import Netflix from './components/netflix';
+import { ShowTime } from './components/ShowTime';
+import Game from './components/SmallGame';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Cards/>
+      <Netflix/>
+      <Netflix/>
+      <CurrentDateTime/>
+      <Marge/>
+      <Game/>
+      <ShowTime/>
+      
+    </>
   );
 }
 
